@@ -5,9 +5,6 @@ dependencies:
 - name: configserver
   repository: file://../../jahangirzada-services/configserver
   version: 0.1.0
-- name: eurekaserver
-  repository: file://../../jahangirzada-services/eurekaserver
-  version: 0.1.0
 - name: gatewayserver
   repository: file://../../jahangirzada-services/gatewayserver
   version: 0.1.0
@@ -17,5 +14,5 @@ dependencies:
 - name: work
   repository: file://../../jahangirzada-services/work
   version: 0.1.0
-digest: sha256:8ac7c57e8bb9081ed7f98cdba00db4b47794402f18849893001cc7ba77bec38f
-generated: "2024-01-26T23:06:20.6684748+04:00"
+digest: sha256:23b99d9c6d3c97c255932d14f0238dc2e3db643cd30195a20f4891fa3b72170d
+generated: "2024-01-28T16:58:24.3561545+04:00"

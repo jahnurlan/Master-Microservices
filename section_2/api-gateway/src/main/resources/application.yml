@@ -2,16 +2,14 @@ spring:
   application:
     name: gatewayserver
   cloud:
-    gateway:
-      routes:
-        - id: person
-          uri: lb://person
-          predicates:
-            - Path=/person/**
-        - id: work
-          uri: lb://work
-          predicates:
-            - Path=/work/**
+    kubernetes:
+      discovery:
+        enabled: true
+        all-namespaces: true
+    discovery:
+      client:
+        health-indicator:
+          enabled: false
   security:
     oauth2:
       resource-server:
