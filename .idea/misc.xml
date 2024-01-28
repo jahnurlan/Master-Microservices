@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/section_1/api-gateway" />
+    <file type="web" url="file://$PROJECT_DIR$/section_1/config-server" />
+    <file type="web" url="file://$PROJECT_DIR$/section_1/eureka-server" />
+    <file type="web" url="file://$PROJECT_DIR$/section_1/person" />
+    <file type="web" url="file://$PROJECT_DIR$/section_1/work" />
+    <file type="web" url="file://$PROJECT_DIR$/section_2/api-gateway" />
+    <file type="web" url="file://$PROJECT_DIR$/section_2/config-server" />
+    <file type="web" url="file://$PROJECT_DIR$/section_2/person" />
+    <file type="web" url="file://$PROJECT_DIR$/section_2/work" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
