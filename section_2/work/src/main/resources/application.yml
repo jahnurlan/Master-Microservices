@@ -1,0 +1,13 @@
+spring:
+  config:
+    import: "optional:configserver:http://localhost:8888/"
+  cloud:
+    config:
+      name: work-service
+      profile: prod
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

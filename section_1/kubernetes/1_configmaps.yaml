@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: jahangirzada-configmap
+data:
+  SPRING_PROFILES_ACTIVE: dev
+  SPRING_CONFIG_IMPORT: "optional:configserver:http://configserver:8888/"
+  EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: "http://eurekaserver:8761/eureka/"
+  CONFIGSERVER_APPLICATION_NAME: configserver
+  EUREKA_APPLICATION_NAME: eurekaserver
+  PERSON_APPLICATION_NAME: person
+  WORK_APPLICATION_NAME: work
+  GATEWAY_APPLICATION_NAME: gatewayserver
+  SPRING_DATASOURCE_URL: "jdbc:postgresql://postgres-service:5432/persondb"
+  SPRING_DATASOURCE_USERNAME: postgres
+  SPRING_DATASOURCE_PASSWORD: root 
+  
+
+
+
+

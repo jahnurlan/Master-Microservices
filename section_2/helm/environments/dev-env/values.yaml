@@ -1,0 +1,10 @@
+global:
+  configMapName: jahangirzada-configmap
+  activeProfile: prod
+  configServerURL: configserver:http://configserver:8888/
+  eurekaServerURL: http://eurekaserver:8761/eureka/
+  keyCloakURL: http://keycloak.default.svc.cluster.local:80/realms/master/protocol/openid-connect/certs
+  kafkaBrokerUrl: kafka-controller-0.kafka-controller-headless.default.svc.cluster.local:9092
+  otelExporterEndPoint: http://tempo-grafana-tempo-distributor:4317
+  openTelemetryJavaAgent: "-javaagent:/app/opentelemetry-javaagent-1.32.0.jar"
+  otelMetricsExporter: none

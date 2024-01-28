@@ -1,0 +1,6 @@
+dependencies:
+- name: jahangirzada-common
+  repository: file://../../jahangirzada-common
+  version: 0.1.0
+digest: sha256:a98b177d21ccd86ee750faf6a307be7f34dec56a2e9c59b915abac33e6f31d4f
+generated: "2024-01-21T13:07:53.3398573+04:00"

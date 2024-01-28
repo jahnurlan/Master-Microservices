@@ -1,0 +1,21 @@
+dependencies:
+- name: jahangirzada-common
+  repository: file://../../jahangirzada-common
+  version: 0.1.0
+- name: configserver
+  repository: file://../../jahangirzada-services/configserver
+  version: 0.1.0
+- name: eurekaserver
+  repository: file://../../jahangirzada-services/eurekaserver
+  version: 0.1.0
+- name: gatewayserver
+  repository: file://../../jahangirzada-services/gatewayserver
+  version: 0.1.0
+- name: person
+  repository: file://../../jahangirzada-services/person
+  version: 0.1.0
+- name: work
+  repository: file://../../jahangirzada-services/work
+  version: 0.1.0
+digest: sha256:8ac7c57e8bb9081ed7f98cdba00db4b47794402f18849893001cc7ba77bec38f
+generated: "2024-01-26T23:06:20.6684748+04:00"
